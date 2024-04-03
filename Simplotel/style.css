@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #ff7171;
+  display: flex;
+  padding: 0.5rem;
+  justify-content: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+.h {
+  letter-spacing: 0.2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.header img {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Page1 */
+.page1 {
+  display: flex;
+}
+.p1-left {
+  height: 48rem;
+  width: 50%;
+  background-image: linear-gradient(to right, #fff7ad, #ffd1d3);
+}
+.topic {
+  margin-left: 5rem;
+  margin-right: 6rem;
+  margin-top: 10rem;
+}
+.topic h1 {
+  font-size: 3.4rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 550;
+  letter-spacing: 5px;
+}
+.content {
+  margin-left: 5rem;
+  margin-right: 6rem;
+  margin-top: 4rem;
+  font-size: 21px;
+  line-height: 1.8rem;
+}
+.but button {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  width: 15rem;
+  height: 3rem;
+  background-color: #ff7171;
+  border: none;
+  color: white;
+  letter-spacing: 0.1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.but button:hover {
+  cursor: pointer;
+}
+.p1-right {
+  height: 48rem;
+  width: 50%;
+  background-image: url(./Images/pexels-robin-stickel-70497.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 60%;
+}
+
+/* Page2 */
+.page2 {
+  display: flex;
+  background-image: linear-gradient(130deg, #fff7ad, 40%, #ffb4ee);
+}
+.p2-left {
+  width: 43%;
+  padding-top: 10rem;
+  padding-left: 7rem;
+  padding-bottom: 12rem;
+  display: flex;
+}
+.p2-left-l {
+  margin-right: 1.8rem;
+}
+.p2-up {
+  width: 17.5rem;
+  height: 14rem;
+  background-image: url(./Images/pexels-rachel-claire-6752433.jpg);
+  background-size: cover;
+  background-position-y: 52%;
+  margin-bottom: 0.8rem;
+}
+.p2-down {
+  width: 17.5rem;
+  height: 14rem;
+  background-image: url(./Images/pexels-eva-bronzini-6141651.jpg);
+  background-size: cover;
+  background-position-y: 52%;
+}
+.p2-left-r {
+  width: 17.5rem;
+  height: 28.8rem;
+  background-image: url(./Images/pexels-mister-mister-3434523.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+}
+.p2-right {
+  width: 50%;
+}
+.box {
+  width: 29rem;
+  height: 14rem;
+  background-color: #ff7171;
+  margin-top: 15rem;
+  padding: 2rem;
+}
+.box-p1 {
+  font-size: 21px;
+  margin-bottom: 2rem;
+}
+.box-p2 {
+  font-size: 3.4rem;
+  font-weight: 550;
+  letter-spacing: 5px;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+}
+.box-p3 {
+  display: flex;
+}
+.box-p3 p {
+  margin-right: 1rem;
+  font-size: 21px;
+}
+.i {
+  background-image: url(./Images/icons8-arrow-30.png);
+  width: 2rem;
+  height: 1.5 rem;
+  background-position-y: 30%;
+  background-size: 1.5rem;
+  background-repeat: no-repeat;
+}
+/* mobile */
+@media screen and (max-width: 426px) {
+  .header {
+    background-color: #ff7171;
+    display: flex;
+    padding: 0.3rem;
+    justify-content: right;
+    width: 100%;
+  }
+  .menu {
+    display: none;
+  }
+  .header img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1.5rem;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .page1 {
+    position: relative;
+  }
+  .p1-left {
+    position: absolute;
+    top: 18rem;
+    height: 20rem;
+    width: 100%;
+    background-image: linear-gradient(to right, #fff7ad, #ffd1d3);
+  }
+  .topic {
+    margin-left: 2rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+  }
+  .topic h1 {
+    font-size: 2rem;
+    font-weight: 550;
+    letter-spacing: 3px;
+  }
+  .content {
+    margin-left: 2rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    font-size: 16px;
+    line-height: 1rem;
+  }
+  .but button {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 10rem;
+    height: 2rem;
+    background-color: #ff7171;
+    border: none;
+    color: white;
+    letter-spacing: 0.1rem;
+  }
+  .p1-right {
+    height: 18rem;
+    width: 100%;
+    background-image: url(./Images/pexels-robin-stickel-70497.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 80%;
+    position: absolute;
+    top: 0;
+  }
+  .page2 {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    background-image: linear-gradient(to bottom, #fff7ad, 40%, #ffb4ee);
+  }
+  .p2-left {
+    width: 100%;
+    display: flex;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+  }
+  .p2-left-l {
+    margin-right: 0.5rem;
+  }
+  .p2-up {
+    width: 10rem;
+    height: 9rem;
+    background-position-y: 62%;
+    margin-bottom: 0.5rem;
+  }
+  .p2-down {
+    width: 10rem;
+    height: 9rem;
+    background-position-y: 62%;
+  }
+  .p2-left-r {
+    width: 10rem;
+    height: 18.5rem;
+    background-position-x: 40%;
+  }
+  .p2-right {
+    width: 100%;
+  }
+  .box {
+    width: 17.5rem;
+    height: 10rem;
+    background-color: #ff7171;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+    padding: 1.5rem;
+  }
+  .box-p1 {
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+  }
+  .box-p2 {
+    font-size: 2rem;
+    font-weight: 550;
+    letter-spacing: 3px;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+  }
+  .box-p3 {
+    display: flex;
+  }
+  .box-p3 p {
+    margin-right: 1rem;
+    font-size: 16px;
+  }
+}
