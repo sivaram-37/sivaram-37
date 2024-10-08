@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on New Self Projects from better learning <br>🤝 I’m looking for help with Frontend Technologies<br>🌱 I’m currently learning on React.JS
+🔭 I’m currently working on New Self Projects from better learning <br>🤝 I’m looking for help with Frontend Technologies<br>🌱 I’m currently learning on Next.JS
 
 
 ## 🌐 Socials:
